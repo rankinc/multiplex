@@ -1,0 +1,2 @@
+KERNEL=="event*", ATTRS{idVendor}=="05a4", ATTRS{idProduct}=="9881", ENV{ID_INPUT_KEY}=="1", GROUP="video", MODE="0660", SYMLINK+="input/dvb-ir-key%n"
+KERNEL=="event*", ATTRS{idVendor}=="05a4", ATTRS{idProduct}=="9881", ENV{ID_INPUT_MOUSE}=="1", GROUP="video", MODE="0660", SYMLINK+="input/dvb-ir-mouse"
